@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="stylesheet" href="src/styles.css">
+    <script src="https://kit.fontawesome.com/e84c3666db.js" crossorigin="anonymous"></script>
+    <title>Weather</title>
+  </head>
+  <body>
+ <div class="container">
+  <div class="Weather">
+      <h1>Weather</h1>
+      <header>
+        <form id="search-form">
+      <input  type="text" placeholder="Enter a city" autofocus="on" id="city-input"/> <input type="submit" value="Search"/></form></header></br>
+
+ 
+
+     <h2 id= "city">Pula</h2>
+ <span id="time">Sunday </span>
+    <p id="temperature"> 27°</p> </br> <p id="description">Sunny </p> 
+  
+
+  <header>Next five days</header>
+</br>
+<div class="row">
+  <div class="col-2">
+<header>Monday</header>
+    <p>28°C 🌞</p>
+    
+  </div>
+
+
+
+
+<div class="col-2">
+  <header> Tuesday</header>
+    <p>28°C ☁️</p>
+ 
+ 
+</div> 
+<div class="col-2">
+ <header> Wednesday</header>
+ 
+    <p>27°C ⛅<p>
+  </div>
+  
+<div class="col-2"> 
+  <header>Thursday</header>
+    <p>28°C ⛅</p>
+    
+  </div>
+  <div class="col-2"> 
+      <header>Firday</header>
+        <p>28°C ⛅</p>
+        
+      </div>
+
+
+ </div>
+  </div>
+ </div>
+ 
+  <script src="src/index.js"></script>
+  
+</body>
+</html>
