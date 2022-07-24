@@ -1,0 +1,44 @@
+body {
+    font-family: monospace;
+  
+    background-image: url(https://images.pexels.com/photos/19670/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+  }
+  h1 {
+    display: block;
+    text-align: center;
+  
+    font: size 400px;
+    color: gray;
+    margin-top: 20px;
+  }
+  h2 {
+    display: block;
+    font-size: 60px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+  }
+  p {
+    font-size: 40px;
+    text-align: center;
+    padding: auto;
+    color: black;
+  }
+  
+  .weather {
+    border-radius: 5px;
+    margin-block: 0 auto;
+  }
+  .placehorder {
+    border-radius: 2px;
+  }
+  .time {
+    text-align: center;
+    color: black;
+    font-size: 40px;
+  }
+  a {
+    color: black;
+  }
